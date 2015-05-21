@@ -1,0 +1,289 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MyMSTest.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MyMSTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MYMSTEST_DIALOG DIALOGEX 0, 0, 317, 319
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MyMSTest"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "1.第一个问题是b的问题是哪个",IDC_STATIC,0,0,317,30,
+                    BS_LEFT | WS_GROUP
+    CONTROL         "a.2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    5,10,55,15
+    CONTROL         "b.3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,66,10,55,15
+    CONTROL         "c.4",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,131,9,55,15
+    CONTROL         "d.5",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,195,9,55,15
+    CONTROL         "e.6",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,257,10,55,
+                    15
+    GROUPBOX        "2.唯一的连续2个具有相同答案的问题是",IDC_STATIC,0,30,
+                    317,30,WS_GROUP
+    CONTROL         "a.2,3",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,5,40,55,15
+    CONTROL         "b.3,4",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,66,40,55,
+                    15
+    CONTROL         "c.4,5",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,131,39,55,
+                    15
+    CONTROL         "d.5,6",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,195,39,
+                    55,15
+    CONTROL         "e.6,7",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON,257,40,
+                    55,15
+    GROUPBOX        "3.本问题答案和哪一个问题答案相同",IDC_STATIC,0,60,317,
+                    30,WS_GROUP
+    CONTROL         "a.1",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    5,70,55,15
+    CONTROL         "b.2",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON,66,70,55,
+                    15
+    CONTROL         "c.4",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON,131,69,55,
+                    15
+    CONTROL         "d.7",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON,195,69,55,
+                    15
+    CONTROL         "e.6",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON,257,70,55,
+                    15
+    GROUPBOX        "4.答案是a的问题个数是",IDC_STATIC,0,90,317,30,WS_GROUP
+    CONTROL         "a.0",IDC_RADIO17,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    5,100,55,15
+    CONTROL         "b.1",IDC_RADIO18,"Button",BS_AUTORADIOBUTTON,66,100,55,
+                    15
+    CONTROL         "c.2",IDC_RADIO19,"Button",BS_AUTORADIOBUTTON,131,99,55,
+                    15
+    CONTROL         "d.3",IDC_RADIO20,"Button",BS_AUTORADIOBUTTON,195,99,55,
+                    15
+    CONTROL         "e.4",IDC_RADIO21,"Button",BS_AUTORADIOBUTTON,257,100,55,
+                    15
+    GROUPBOX        "5.本问题答案和哪个问题的相同",IDC_STATIC,0,120,317,30,
+                    WS_GROUP
+    CONTROL         "a.10",IDC_RADIO22,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,5,130,55,15
+    CONTROL         "b.9",IDC_RADIO23,"Button",BS_AUTORADIOBUTTON,66,130,55,
+                    15
+    CONTROL         "c.8",IDC_RADIO24,"Button",BS_AUTORADIOBUTTON,131,129,55,
+                    15
+    CONTROL         "d.7",IDC_RADIO25,"Button",BS_AUTORADIOBUTTON,195,129,55,
+                    15
+    CONTROL         "e.6",IDC_RADIO26,"Button",BS_AUTORADIOBUTTON,257,130,55,
+                    15
+    GROUPBOX        "6.答案是a的问题个数和答案是什么的问题个数相同",
+                    IDC_STATIC,0,150,317,30,WS_GROUP
+    CONTROL         "a.b",IDC_RADIO27,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    5,160,55,15
+    CONTROL         "b.c",IDC_RADIO28,"Button",BS_AUTORADIOBUTTON,66,160,55,
+                    15
+    CONTROL         "c.d",IDC_RADIO29,"Button",BS_AUTORADIOBUTTON,131,159,55,
+                    15
+    CONTROL         "d.e",IDC_RADIO30,"Button",BS_AUTORADIOBUTTON,195,159,55,
+                    15
+    CONTROL         "e.都不是",IDC_RADIO31,"Button",BS_AUTORADIOBUTTON,257,
+                    160,55,15
+    GROUPBOX        "7.按字母顺序，本问题答案和下一个问题答案相差几个字母(a和b相差一个字母)",
+                    IDC_STATIC,0,180,317,30,WS_GROUP
+    CONTROL         "a.4",IDC_RADIO32,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    5,190,55,15
+    CONTROL         "b.3",IDC_RADIO33,"Button",BS_AUTORADIOBUTTON,66,190,55,
+                    15
+    CONTROL         "c.2",IDC_RADIO34,"Button",BS_AUTORADIOBUTTON,131,189,55,
+                    15
+    CONTROL         "d.1",IDC_RADIO35,"Button",BS_AUTORADIOBUTTON,195,189,55,
+                    15
+    CONTROL         "e.0",IDC_RADIO36,"Button",BS_AUTORADIOBUTTON,257,190,55,
+                    15
+    GROUPBOX        "8.答案是元音字母的问题的个数是(a,e是元音)",IDC_STATIC,0,
+                    210,317,30,WS_GROUP
+    CONTROL         "a.2",IDC_RADIO37,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    5,220,55,15
+    CONTROL         "b.3",IDC_RADIO38,"Button",BS_AUTORADIOBUTTON,66,220,55,
+                    15
+    CONTROL         "c.4",IDC_RADIO39,"Button",BS_AUTORADIOBUTTON,131,219,55,
+                    15
+    CONTROL         "d.5",IDC_RADIO40,"Button",BS_AUTORADIOBUTTON,195,219,55,
+                    15
+    CONTROL         "e.6",IDC_RADIO41,"Button",BS_AUTORADIOBUTTON,257,220,55,
+                    15
+    GROUPBOX        "9.答案是辅音字母的问题个数是",IDC_STATIC,0,240,317,30,
+                    WS_GROUP
+    CONTROL         "a.一个质数",IDC_RADIO42,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,5,250,55,15
+    CONTROL         "b.一个阶乘数",IDC_RADIO43,"Button",BS_AUTORADIOBUTTON,
+                    66,250,65,15
+    CONTROL         "c.一个平方数",IDC_RADIO44,"Button",BS_AUTORADIOBUTTON,
+                    131,249,64,15
+    CONTROL         "d.一个立方数",IDC_RADIO45,"Button",BS_AUTORADIOBUTTON,
+                    195,249,62,15
+    CONTROL         "e.5的倍数",IDC_RADIO46,"Button",BS_AUTORADIOBUTTON,257,
+                    250,55,15
+    GROUPBOX        "10.本题的答案是",IDC_STATIC,0,270,317,30,WS_GROUP
+    CONTROL         "a.a",IDC_RADIO47,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    5,280,55,15
+    CONTROL         "b.b",IDC_RADIO48,"Button",BS_AUTORADIOBUTTON,66,280,55,
+                    15
+    CONTROL         "c.c",IDC_RADIO49,"Button",BS_AUTORADIOBUTTON,131,279,55,
+                    15
+    CONTROL         "d.d",IDC_RADIO50,"Button",BS_AUTORADIOBUTTON,190,280,55,
+                    15
+    CONTROL         "e.e",IDC_RADIO51,"Button",BS_AUTORADIOBUTTON,255,280,55,
+                    15
+    PUSHBUTTON      "自动",IDC_BUTTON1,215,300,50,15
+    EDITTEXT        IDC_EDIT2,0,300,100,15,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "测试",IDC_BUTTON2,265,300,50,15
+    EDITTEXT        IDC_EDIT3,105,300,110,15,ES_AUTOHSCROLL | ES_READONLY
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MyMSTest Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MyMSTest\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MyMSTest.EXE\0"
+            VALUE "ProductName", "MyMSTest 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MYMSTEST_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 60
+        VERTGUIDE, 131
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MyMSTest.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
