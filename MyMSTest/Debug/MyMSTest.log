@@ -1,8 +1,19 @@
-﻿Build started 2015-5-21 12:00:32.
-     1>Project "G:\软件bao\MyMSTest\MyMSTest\MyMSTest.vcxproj" on node 2 (Rebuild target(s)).
-     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(376,5): error MSB8031: Building an MFC project for a non-Unicode character set is deprecated. You must change the project property to Unicode or download an additional library. See http://go.microsoft.com/fwlink/p/?LinkId=286820 for more information.
-     1>Done Building Project "G:\软件bao\MyMSTest\MyMSTest\MyMSTest.vcxproj" (Rebuild target(s)) -- FAILED.
+﻿Build started 2015-6-3 14:59:01.
+     1>Project "G:\软件bao\MyMSTest\MyMSTest\MyMSTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\MyMSTest.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt MyMSTestDlg.cpp
+         MyMSTestDlg.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\MyMSTest.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\MyMSTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\MyMSTest.lib" /MACHINE:X86 /SAFESEH .\Debug\MyMSTest.res
+         .\Debug\MyMSClass.obj
+         .\Debug\MyMSTest.obj
+         .\Debug\MyMSTestDlg.obj
+         .\Debug\StdAfx.obj
+         MyMSTest.vcxproj -> G:\软件bao\MyMSTest\MyMSTest\.\Debug\MyMSTest.exe
+       BscMake:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\MyMSTest.bsc" .\Debug\MyMSClass.sbr .\Debug\MyMSTest.sbr .\Debug\MyMSTestDlg.sbr .\Debug\StdAfx.sbr
+     1>Done Building Project "G:\软件bao\MyMSTest\MyMSTest\MyMSTest.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:01.38

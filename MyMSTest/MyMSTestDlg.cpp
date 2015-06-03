@@ -28,8 +28,8 @@ CMyMSTestDlg::CMyMSTestDlg(CWnd* pParent /*=NULL*/)
 	m_radio37 = 0;
 	m_radio42 = 0;
 	m_radio47 = 0;
-	m_edit2 = _T("所选值");
-	m_edit3 = _T("测试结果");
+	m_edit2 = _T("测试结果");
+	m_edit3 = _T("所选值");
 	//}}AFX_DATA_INIT
 	// Note that LoadIcon does not require a subsequent DestroyIcon in Win32
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
